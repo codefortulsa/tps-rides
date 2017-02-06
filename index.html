@@ -1,19 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/site.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     </head>
     <body>
-        <h1>Tulsa Public Schools - Know Your Route</h1>
-        <ul>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/1514+E+Zion+St+Tulsa+OK+74106/data=!4m2!4m1!3e3"><h2>Booker T Washington High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/3101+W+Edison+Tulsa+OK+74127/data=!4m2!4m1!3e3"><h2>Central High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/1919+W+40th+St+Tulsa+OK+74107/data=!4m2!4m1!3e3"><h2>Daniel Webster High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/12150+E+11th+St+Tulsa+OK+74128/data=!4m2!4m1!3e3"><h2>East Central High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/4929+N+Peoria+Ave+Tulsa+OK+74126/data=!4m2!4m1!3e3"><h2>McClain High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/5840+S+Hudson+Tulsa+OK+74135/data=!4m2!4m1!3e3"><h2>Memorial High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/6960+E+21st+St+Tulsa+OK+74129/data=!4m2!4m1!3e3"><h2>Nathan Hale High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/2906+E+41st+St+Tulsa+OK+74105/data=!4m2!4m1!3e3"><h2>Thomas Edison High School</h2></a></li>
-            <li><a class="maps-link" href="https://www.google.com/maps/dir/Current+Location/3909+E+5th+Pl+Tulsa+OK+74112/data=!4m2!4m1!3e3"><h2>Will Rogers High School</h2></a></li>
-        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 col-lg-5"></div>
+                <div class="col-xs-4 col-lg-2">
+                    <img src="images/tps-logo-banner.png" alt="TPS Logo Banner">
+                </div>
+                <div class="col-xs-4 col-lg-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Booker T Washington" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/1514+E+Zion+St+Tulsa+OK+74106/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Central" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/3101+W+Edison+Tulsa+OK+74127/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="East Central" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/12150+E+11th+St+Tulsa+OK+74128/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Edison" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/2906+E+41st+St+Tulsa+OK+74105/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Hale" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/6960+E+21st+St+Tulsa+OK+74129/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Margaret Hudson" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/1136+South+Allegheny+Avenue+Tulsa+OK+74112/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="McClain" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/12150+E+11th+St+Tulsa+OK+74128/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Memorial" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/5840+S+Hudson+Tulsa+OK+74135/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Phoenix Rising" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/315+South+Gilcrease+Museum+Rd+Tulsa+OK+74127/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Rogers" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/3909+E+5th+Pl+Tulsa+OK+74112/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Street School" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/1135+S+Yale+Avenue+Tulsa+OK+74112/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Traice" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/2740+E+41st+St+N+Tulsa+OK+74110/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Tulsa Met" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/6201+East+Virgin+Street+Tulsa+OK+74115/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-1 col-lg-4"></div>
+                <div class="col-xs-10 col-lg-4">
+                    <form class="maps-form">
+                        <input type="button" class="maps-button btn btn-default form-control" value="Webster" onclick="window.location.href='https://www.google.com/maps/dir/Current+Location/1919+W+40th+St+Tulsa+OK+74107/data=!4m2!4m1!3e3'" />
+                    </form>
+                </div>
+                <div class="col-xs-1 col-lg-4"></div>
+            </div>
+        </div>
     </body>

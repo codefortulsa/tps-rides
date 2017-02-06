@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative');
+
+.maps-form {
+    padding: 10px;
+}
+
+.maps-button {
+        font-family: 'Signika Negative', sans-serif;
+        color: #ffffff;
+        background-color: #28ABE2;
+}
