@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Signika+Negative');
 
+body {
+    background-color: #F2F2F3;
+}
+
 .maps-form {
     padding: 10px;
 }
@@ -8,4 +12,8 @@
         font-family: 'Signika Negative', sans-serif;
         color: #ffffff;
         background-color: #28ABE2;
+}
+
+.full-width-image {
+    width: 100%;
 }
